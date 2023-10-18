@@ -5,7 +5,7 @@ labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
-      value: "Please describe your feature request in detail."
+      value: "Please describe your feature request in details"
   - type: textarea
     attributes:
       label: "Feature Request"
