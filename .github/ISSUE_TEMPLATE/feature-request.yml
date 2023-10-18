@@ -1,9 +1,11 @@
 name: Feature Request
 description: Feature Request Template
 title: "[Feature]: "
-labels: ["bug", "triage"]
 labels: ["enhancement"]
 body:
+  - type: markdown
+    attributes:
+      value: "Please describe your feature request in detail."
   - type: textarea
     attributes:
-      label: "What's wrong?"
+      label: "Feature Request"
