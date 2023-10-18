@@ -38,10 +38,10 @@ body:
   - type: textarea
     id: attachments
     attributes:
-      label: "Attachments"
+      label: "Attachments (Optional)"
       description: Attach any relevant files or screenshots related to the bug, if available.
   - type: textarea
     id: logs
     attributes:
-      label: "Logs"
+      label: "Logs (Optional)"
       description: Attach any relevant log files or error messages that may be helpful for debugging the bug, if available.
