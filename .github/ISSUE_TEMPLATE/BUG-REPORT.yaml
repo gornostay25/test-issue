@@ -3,56 +3,46 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
 body:
-  - type: markdown
+  - type: input
+    id: prevalence
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      label: Bug prevalence
+      description: "How often do you or others encounter this bug?"
+      placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    validations:
+      required: true
   - type: textarea
     id: preconditions
     attributes:
       label: "Preconditions"
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      description: How do you set up the necessary environment or conditions for triggering this bug? Please detail any prerequisites or initial state required.
       value: "* User is logged in"
-
   - type: textarea
     id: reproduce-steps
     attributes:
       label: "Steps To Reproduce"
       description: How do you trigger this bug? Please walk us through it step by step.
-      placeholder: Tell us what you see!
       value: |
         1.
         2.
         3.
-
   - type: textarea
     id: actual-result
     attributes:
       label: "Actual Result"
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-
+      description: What is the unexpected outcome or behavior observed when reproducing the bug? 
   - type: textarea
     id: expected-result
     attributes:
       label: "Expected Result"
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-      
+      description: What is the expected outcome or behavior when triggering the bug? 
   - type: textarea
     id: attachments
     attributes:
       label: "Attachments"
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-
+      description: Attach any relevant files or screenshots related to the bug, if available.
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: "Logs"
+      description: Attach any relevant log files or error messages that may be helpful for debugging the bug, if available.
