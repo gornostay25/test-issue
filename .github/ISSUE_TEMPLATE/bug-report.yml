@@ -3,6 +3,9 @@ description: Bug Report Template
 title: "[Bug]: "
 labels: ["bug"]
 body:
+  - type: markdown
+      attributes:
+        value: "Please fill out the following bug report template"
   - type: textarea
     id: description
     attributes:
