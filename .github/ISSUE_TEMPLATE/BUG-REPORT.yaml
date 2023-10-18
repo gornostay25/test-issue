@@ -19,9 +19,12 @@ body:
     id: reproduce-steps
     attributes:
       label: "Steps To Reproduce"
-      description: Also tell us, what did you expect to happen?
+      description: How do you trigger this bug? Please walk us through it step by step.
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: |
+        1.
+        2.
+        3.
 
   - type: textarea
     id: actual-result
