@@ -4,3 +4,6 @@ title: "[Feature]: "
 labels: ["bug", "triage"]
 labels: ["enhancement"]
 body:
+  - type: textarea
+    attributes:
+      label: "What's wrong?"
