@@ -4,18 +4,17 @@ title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: input
-    id: prevalence
+    id: description
     attributes:
-      label: Bug prevalence
-      description: "How often do you or others encounter this bug?"
-      placeholder: "Whenever I visit the user account page (1-2 times a week)"
+      label: "Description"
+      description: "Provide a short description of the bug"
     validations:
       required: true
   - type: textarea
     id: preconditions
     attributes:
       label: "Preconditions"
-      description: How do you set up the necessary environment or conditions for triggering this bug? Please detail any prerequisites or initial state required.
+      description: How do you set up the necessary environment or conditions for triggering this bug?
       value: "* User is logged in"
   - type: textarea
     id: reproduce-steps
