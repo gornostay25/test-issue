@@ -1,0 +1,6 @@
+name: Feature Request
+description: Feature Request Template
+title: "[Feature]: "
+labels: ["bug", "triage"]
+labels: ["enhancement"]
+body:
